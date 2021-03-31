@@ -17,6 +17,6 @@ x Pasar al siguiente nivel luego de haber capturado a todos los ciudadanos.<br/>
 x Muestra una pantalla de "Game Over".<br/> 
 x Muestra un cronómetro de tiempo.<br/>
 
-##Assets utilizados
+## Assets utilizados
 - CITY package `https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224`
 - Las personas fueron extraídas en `Paint 3D`
