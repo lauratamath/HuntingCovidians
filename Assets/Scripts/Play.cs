@@ -21,6 +21,11 @@ public class Play : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void ShowInstrucions()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
