@@ -7,7 +7,7 @@ Actualmente existe una virus muy peligroso y para evitar que este se propague, l
 
 ## Este juego cuenta con
 ? Ciudadanos moviéndose aleatoriamente en toda la ciudad.<br/>
-? Tiene una pantalla de inicio de partida.<br/>
+✅ Tiene una pantalla de inicio de partida.<br/>
 x Cuenta una breve historia para poner en contexto al jugador.<br/>
 ✅ Cámara en primera persona.<br/>
 ✅ Linterna para visualizar a los ciudadanos.<br/>
