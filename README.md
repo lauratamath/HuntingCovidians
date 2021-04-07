@@ -6,7 +6,7 @@ Proyecto 2
 Actualmente existe una virus muy peligroso y para evitar que este se propague, los ciudadanos deben de permanecer aislados. Sin embargo, hay algunos que no siguen las órdenes de las autoridades. Por esa razón es importante que el policía de la zona, capture a todos los ciudadanos que se encuentran en la calle y los mande a su hogar. 
 
 ## Este juego cuenta con
-? Ciudadanos moviéndose aleatoriamente en toda la ciudad.<br/>
+✅ Ciudadanos moviéndose aleatoriamente en toda la ciudad.<br/>
 ✅ Tiene una pantalla de inicio de partida.<br/>
 x Cuenta una breve historia para poner en contexto al jugador.<br/>
 ✅ Cámara en primera persona.<br/>
@@ -15,7 +15,7 @@ x Cuenta una breve historia para poner en contexto al jugador.<br/>
 ✅ Llevar una cuenta de los ciudanos capturados.<br/>
 x Pasar al siguiente nivel luego de haber capturado a todos los ciudadanos.<br/>
 x Muestra una pantalla de "Game Over".<br/> 
-x Muestra un cronómetro de tiempo.<br/>
+✅ Muestra un cronómetro de tiempo.<br/>
 
 ## Assets utilizados
 - CITY package `https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224`
