@@ -20,4 +20,4 @@ x Muestra una pantalla de "Game Over".<br/>
 ## Assets utilizados
 - [CITY package](https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224)
 - Las personas fueron extraídas en `Paint 3D`
-- [Big Furniture pack] (https://assetstore.unity.com/packages/3d/props/furniture/big-furniture-pack-7717)
+- [Big Furniture pack](https://assetstore.unity.com/packages/3d/props/furniture/big-furniture-pack-7717)
