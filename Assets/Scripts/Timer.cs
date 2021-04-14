@@ -61,7 +61,7 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                winner.SetActive(true);
+                winner.SetActive(false);
                 loser.SetActive(true);
             }
         }

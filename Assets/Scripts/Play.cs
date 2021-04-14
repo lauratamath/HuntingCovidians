@@ -20,6 +20,10 @@ public class Play : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
+    public void ChangeScence2()
+    {
+        SceneManager.LoadScene("Level2");
+    }
 
     public void ShowInstrucions()
     {
@@ -29,6 +33,10 @@ public class Play : MonoBehaviour
     public void EndGame()
     {
         SceneManager.LoadScene("GameOver");
+    }
+    public void Again()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void QuitGame()
     {
