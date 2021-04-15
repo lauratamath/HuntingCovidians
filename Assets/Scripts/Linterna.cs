@@ -18,7 +18,7 @@ public class Linterna : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (luz && Input.GetMouseButtonDown(0))
+        if (luz && Input.GetKeyDown(KeyCode.L))
         {
             encendida = !encendida;
             luz.enabled = encendida;
