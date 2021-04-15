@@ -4,27 +4,43 @@ using UnityEngine.SceneManagement;
 
 public class Capture : MonoBehaviour {
     public Text scoreText;
-    public Text debugText;
     private int score = 0;
     public Camera cam;
     
     public static bool playerWins = false;
+    public Text tiempoInicio;
+    public Text tiempoTotal;
+    
+    private float tiempo = 3.0f;
+    private float tiempoTota = 150.0f;
     
 
-    private void Update() {
+    // Update is called once per frame
+    void Update()
+    {
+       if (tiempo > 0)
+        {
+            tiempo -= Time.deltaTime;
+            tiempoInicio.text = "" + tiempo.ToString("f0");
+          //  agent.enabled = false;
+            tiempoInicio.enabled = true;
+        }
+        else
+        {
+          //  agent.enabled = true;
+            tiempoInicio.enabled = false;
+            tiempoTota -= Time.deltaTime;
+            tiempoTotal.text = "Tiempo: 00" + tiempoTota.ToString("f0");
+        }
+
         if (scoreText) {
             scoreText.text = "Capturated people: " + score.ToString() + "/10";
         }
 
         if (Input.GetMouseButtonDown(0)) {
-            //Ray myRay = cam.ScreenPointToRay(Input.mousePosition);
-            //Ray myRay = new Ray(transform.position, transform.forward);
             Ray myRay = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
 
             if (Physics.Raycast(myRay, out RaycastHit hitInfo)) {
-                //DrawLine(myRay.origin, hitInfo.point, Color.red, 0.5f);
-                //Debug.Log(hitInfo.collider.tag + " " + hitInfo.collider.gameObject.name);
-                //debugText.text = hitInfo.collider.tag + " " + hitInfo.collider.gameObject.name;
                 if (hitInfo.collider.CompareTag("Destroy")) {
                     Destroy(hitInfo.collider.gameObject);
                     score++;
@@ -32,14 +48,18 @@ public class Capture : MonoBehaviour {
             }
 
         }
-        if(score==10){
-          playerWins = true;
-          SceneManager.LoadScene("Winner");
+        if(tiempoTota==150){
+            if(score==10){
+                playerWins = true;
+                SceneManager.LoadScene("Winner");
+            }
+          
         }
-
         else{
-          playerWins = false;
-          SceneManager.LoadScene("Lose");
+            if(score<10){
+                playerWins = false;
+                SceneManager.LoadScene("Lose");
+            }
         }
 
     }
