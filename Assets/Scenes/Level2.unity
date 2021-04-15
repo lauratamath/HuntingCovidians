@@ -2009,6 +2009,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4913101745268009056, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.21176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101745268009056, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101745268009056, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101745268009056, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4913101745292080784, guid: 96080498460394794ace9646c929b1f0,
         type: 3}
       propertyPath: m_Layer
@@ -2038,6 +2058,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746019305466, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.21176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746019305466, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746019305466, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746019305466, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4913101746603285800, guid: 96080498460394794ace9646c929b1f0,
         type: 3}

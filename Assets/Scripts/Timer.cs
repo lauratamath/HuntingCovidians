@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Timer : MonoBehaviour
 {
     public Text tiempoInicio;
@@ -11,12 +12,7 @@ public class Timer : MonoBehaviour
     private float tiempo = 3.0f;
     private float tiempoTota = 120.0f;
     public UnityEngine.AI.NavMeshAgent agent;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
@@ -35,6 +31,8 @@ public class Timer : MonoBehaviour
             tiempoTota -= Time.deltaTime;
             tiempoTotal.text = "Tiempo: 00" + tiempoTota.ToString("f0");
         }
+
+        
 
     } 
     

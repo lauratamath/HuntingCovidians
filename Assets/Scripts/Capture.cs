@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class Capture : MonoBehaviour {
     public Text scoreText;
     public Text debugText;
     private int score = 0;
     public Camera cam;
+    
+    public static bool playerWins = false;
     
 
     private void Update() {
@@ -29,6 +31,15 @@ public class Capture : MonoBehaviour {
                 }
             }
 
+        }
+        if(score==10){
+          playerWins = true;
+          SceneManager.LoadScene("Winner");
+        }
+
+        else{
+          playerWins = false;
+          SceneManager.LoadScene("Lose");
         }
 
     }
