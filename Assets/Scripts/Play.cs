@@ -31,6 +31,16 @@ public class Play : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void History()
+    {
+        SceneManager.LoadScene("History");
+    }
+
+    public void History1()
+    {
+        SceneManager.LoadScene("History1");
+    }
+
     public void exitGame(){
         Application.Quit();
     }
