@@ -43,9 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7644cf98b18bf475587f6903a5bf8cd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoText: {fileID: 0}
+  tiempoInicio: {fileID: 0}
   tiempoTotal: {fileID: 0}
-  winner: {fileID: 0}
-  loser: {fileID: 0}
-  win: {fileID: 0}
   agent: {fileID: 0}

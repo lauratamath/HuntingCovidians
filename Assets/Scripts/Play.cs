@@ -34,9 +34,6 @@ public class Play : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
-    public void Again()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
     
 }

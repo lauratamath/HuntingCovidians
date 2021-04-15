@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Capture : MonoBehaviour {
     public Text scoreText;
     public Text debugText;
     private int score = 0;
     public Camera cam;
+    
 
     private void Update() {
         if (scoreText) {
