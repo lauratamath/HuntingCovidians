@@ -48,7 +48,7 @@ public class Capture : MonoBehaviour {
             }
 
         }
-        if(tiempoTota==150){
+        if(tiempoTota<=150){
             if(score==10){
                 playerWins = true;
                 SceneManager.LoadScene("Winner");
