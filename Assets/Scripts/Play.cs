@@ -29,11 +29,6 @@ public class Play : MonoBehaviour
     {
         SceneManager.LoadScene("Instructions");
     }
-
-    public void EndGame()
-    {
-        SceneManager.LoadScene("GameOver");
-    }
     
     
 }
