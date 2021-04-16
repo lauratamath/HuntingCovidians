@@ -62,7 +62,7 @@ public class CaptureLevel2 : MonoBehaviour
             }
 
         }
-        else
+        if(tiempoTota <= 0)
         {
             if (score < 10)
             {

@@ -44,6 +44,11 @@ public class Play : MonoBehaviour
     public void exitGame(){
         Application.Quit();
     }
-    
-    
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+
 }

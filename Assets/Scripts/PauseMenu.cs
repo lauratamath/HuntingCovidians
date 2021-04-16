@@ -25,6 +25,14 @@ public class PauseMenu : MonoBehaviour
 
     public void TogglePause()
     {
+        if (!isPaused)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
         pause.SetActive(!pause.activeSelf);
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0.0f : 1.0f;
@@ -39,4 +47,5 @@ public class PauseMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
 }

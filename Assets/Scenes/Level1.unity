@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35445198, g: 0.34791958, b: 0.3691825, a: 1}
+  m_IndirectSpecularColor: {r: 0.3544519, g: 0.3479195, b: 0.36918235, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5828,10 +5828,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3898263700314313621, guid: 222a750f2871f44329f5a013dc691a61,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898263700314313621, guid: 222a750f2871f44329f5a013dc691a61,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898263700314313621, guid: 222a750f2871f44329f5a013dc691a61,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
+      objectReference: {fileID: 0}
     - target: {fileID: 3898263700314313624, guid: 222a750f2871f44329f5a013dc691a61,
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898263700366555721, guid: 222a750f2871f44329f5a013dc691a61,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 222a750f2871f44329f5a013dc691a61, type: 3}
@@ -6061,6 +6081,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746603285802, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746603285802, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913101746603285802, guid: 96080498460394794ace9646c929b1f0,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 720
       objectReference: {fileID: 0}
     - target: {fileID: 4913101746603285803, guid: 96080498460394794ace9646c929b1f0,
         type: 3}
