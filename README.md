@@ -21,6 +21,6 @@ Actualmente existe una virus muy peligroso y para evitar que este se propague, l
 - [CITY package](https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224)
 - Las personas fueron extraídas en `Paint 3D`
 - [Big Furniture pack](https://assetstore.unity.com/packages/3d/props/furniture/big-furniture-pack-7717)
--[First Person Controller](https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884) (script)
+- [First Person Controller](https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884) (script)
 ***
 > Laura Tamath & Alejandra Gudiel, 2021
