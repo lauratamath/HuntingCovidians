@@ -12,7 +12,7 @@ public class Capture : MonoBehaviour {
     public Text tiempoTotal;
     
     private float tiempo = 3.0f;
-    private float tiempoTota = 3.0f;
+    private float tiempoTota = 150.0f;
     
 
     // Update is called once per frame
